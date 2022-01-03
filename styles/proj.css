@@ -13,24 +13,24 @@ main{
     height: 100%;
     width: 100%;
 }
-.content-left{
+.container-left{
     margin-top: 11.5%;
     margin-left: 11vw;
 }
- .content-left h1{ 
+ .container-left h1{ 
     color: var(--sec-color);
     font-size: 2vw;
 }
-.content-left p{
+.container-left p{
     width: 30vw;
     font-size: 1.2vw;
 }
-.content-left a{
+.container-left a{
     text-decoration: none;
     color: white;
 }
 
-.content-right{
+.container-right{
     margin-top: 14vh;
     margin-left: 13vw;
     height: 63.79vh;
@@ -41,7 +41,7 @@ main{
     align-content: space-around;
 }
 
-.content-right a{
+.container-right a{
     text-decoration: none;
     color: var(--sec-color);
 }
@@ -134,7 +134,7 @@ main{
 /*First project*/
 
 .container-proj1{
-     background-image:url("Img/projects/backP2.png"); 
+     background-image:url("backP2.png"); 
      background-repeat: no-repeat;
      background-size:contain;
      background-color:#f6f6f6 ;
@@ -224,7 +224,7 @@ aside .iconify{
 
  /* Second Project */
 .container-proj2{
-    background-image:url("Img/projects/backP3.png"); 
+    background-image:url("backP3.png"); 
     background-repeat: no-repeat;
     background-size:contain;
     background-color:#f6f6f6 ;
@@ -271,7 +271,7 @@ aside .iconify{
 /*Third Project */
 
 .container-proj3{
-    background-image:url("Img/projects/backP2.png"); 
+    background-image:url("backP2.png"); 
     background-repeat: no-repeat;
     background-size:contain;
     height: 100%;
