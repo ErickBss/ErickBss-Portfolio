@@ -70,3 +70,39 @@ button:hover{
     background-color: var(--hover-color);
    
 }
+
+.error{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.error-message{
+    display: none;
+}
+
+@media (max-width:1150px ){
+
+    body{
+        overflow:hidden;
+    }
+
+    .error{
+        display: flex;
+        background-color: red;
+    }
+
+    .error-message{
+        display: block;
+    }
+
+    header, article , aside, footer, .container-left, .container-right, .title{
+        display: none;
+        visibility: hidden;
+    }
+
+
+}
