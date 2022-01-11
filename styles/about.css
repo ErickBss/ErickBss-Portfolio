@@ -4,7 +4,12 @@ body{
 .main{
     margin-top: 3.5%;
     width: 100vw;
+<<<<<<< HEAD
     height: auto;
+=======
+    height: 100%;
+    padding: 1.9% 0;
+>>>>>>> 78854b229aecc1ef5cb83d75a392a2faaa16c74b
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -106,6 +111,7 @@ body{
     height: 150vh;
 }
 
+<<<<<<< HEAD
 
 /* Tablet */
 @media screen and (max-width:800px) and  (min-width: 600px){
@@ -147,3 +153,13 @@ body{
 }
 
 
+=======
+@media (max-width:1150px ){
+
+body{
+    overflow: hidden;
+}
+
+}
+
+>>>>>>> 78854b229aecc1ef5cb83d75a392a2faaa16c74b
