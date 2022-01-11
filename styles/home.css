@@ -1,12 +1,13 @@
 main{
     width: 100vw;
+    height: 80vh;
     display: flex;
-    flex-wrap: wrap;
-    font-size: 1.1rem;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    font-size: 1.3rem;
 }
 .container-left{
-    margin-top: 27vh;
-    margin-left: 150px;
     color:#2a2a2a;
 }
 .container-right{
@@ -19,16 +20,61 @@ main{
     font-size: 2.3rem;
 }
 .container-left p{
-    width: 28.5vw;
+    width: 35vw;
 }
 
 .img{
-    width:40vw;
+    width:50vw;
     min-height: 300px;
-    max-height: 350px;
+    max-height: 450px;
     min-width: 400px;
-    margin-left: 10vw;
-    margin-top: 20vh;
-    float: right;
-    border: none;
 }
+
+/* Tablet */
+ @media screen and (max-width:800px) and (min-width: 600px){
+    main{
+        flex-direction: column-reverse;
+        gap: 10%;
+        align-items: center;
+    }
+
+    .img{
+        margin: 0;
+        min-height: 300px;
+        max-height: 350px;
+        min-width: 500px;
+    }
+
+    
+    .container-left h1{
+        font-size: 3rem;
+    }
+
+    .container-left p{
+        font-size: 1.8rem;
+        width: 80vw;
+    }
+
+
+}
+
+
+/* @media (min-width: 1400px){
+
+    main{
+        font-size: 2.3rem;
+        gap: 15px;
+    }
+
+    .container-left h1{
+        font-size: 3rem;
+    }
+
+    .img{
+        min-height: 400px;
+        max-height: 550px;
+
+    }
+}
+ */
+
