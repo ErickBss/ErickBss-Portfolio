@@ -13,18 +13,9 @@ main{
     justify-content: space-evenly;
     flex-wrap: wrap;
     height: 100%;
-<<<<<<< HEAD
     width: auto;
 }
 
-=======
-    width: 100%;
-}
-.container-left{
-    margin-top: 11.5%;
-    margin-left: 11vw;
-}
->>>>>>> 78854b229aecc1ef5cb83d75a392a2faaa16c74b
  .container-left h1{ 
     color: var(--sec-color);
     font-size: 2rem;
@@ -39,15 +30,8 @@ main{
 }
 
 .container-right{
-<<<<<<< HEAD
     height: 50%;
     width: 40%;
-=======
-    margin-top: 14vh;
-    margin-left: 13vw;
-    height: 63.79vh;
-    width: 30.18vw;
->>>>>>> 78854b229aecc1ef5cb83d75a392a2faaa16c74b
     border: none;
     display: flex;
     flex-wrap: wrap;
@@ -328,7 +312,6 @@ aside .iconify{
 .illustration > img{
     width: 600px;
     min-width:400px;
-<<<<<<< HEAD
 }
 
 /* Tablet */
@@ -336,7 +319,4 @@ aside .iconify{
 
 
 
-=======
-    transform: translateX(-30px);
->>>>>>> 78854b229aecc1ef5cb83d75a392a2faaa16c74b
 }

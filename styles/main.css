@@ -84,7 +84,6 @@ button:hover{
 .error-message{
     display: none;
 }
-<<<<<<< HEAD
 /* tablet */
 @media screen and (max-width:800px) and (min-width: 600px){
    
@@ -106,10 +105,6 @@ button:hover{
 
 
 /* @media (max-width:1150px ){
-=======
-
-@media (max-width:1150px ){
->>>>>>> 78854b229aecc1ef5cb83d75a392a2faaa16c74b
 
     body{
         overflow:hidden;
@@ -128,10 +123,4 @@ button:hover{
         display: none;
         visibility: hidden;
     }
-<<<<<<< HEAD
 } */
-=======
-
-
-}
->>>>>>> 78854b229aecc1ef5cb83d75a392a2faaa16c74b
