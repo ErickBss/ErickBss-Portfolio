@@ -13,7 +13,7 @@ main{
     justify-content: space-evenly;
     flex-wrap: wrap;
     height: 100%;
-    width: auto;
+    width: 100vw;
 }
 
  .container-left h1{ 
@@ -277,9 +277,9 @@ aside .iconify{
     background-repeat: no-repeat;
     background-size:contain;
     height: 70%;
-    width: 100vw;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     gap: 50px;
 }
@@ -310,6 +310,7 @@ aside .iconify{
 }
 
 .illustration > img{
+    margin-bottom: 8%;
     width: 600px;
     min-width:400px;
 }
@@ -317,6 +318,65 @@ aside .iconify{
 /* Tablet */
 @media screen and (max-width:800px) and (min-width: 600px){
 
+    main{
+       flex-direction: column;
+    }
 
+    .container-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .container-left h1{ 
+        font-size: 2rem;
+    }
+    .container-left p{
+        width: 70%;
+        font-size: 1.1rem;
+    }
+
+    .container-right{
+        height: 30%;
+        margin-bottom: 5%;
+    }
+
+    #slider{
+        height: 40vh;
+        width: 80vw;
+    }
+
+    .container-proj1{
+        height: 65%;
+    }
+
+    #slider2{
+        height: 40vh;
+        width: 80vw;
+    }
+
+    .container-proj2{
+        height: 70%;
+    }
+
+    .details > h4{
+        display: none;
+    }
+
+    .container-proj3{
+        height: 50%;
+    }
+
+    .illustration > img{
+        margin-bottom: 40%;
+        width: 450px;
+        min-width:200px;
+    }
+
+    .container-proj3 .description aside{
+        height: 6vh;
+    }
+   
 
 }

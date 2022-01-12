@@ -1,11 +1,14 @@
 .main{
     display: flex;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    width: auto;
     height: 80vh;
 }
 
 img{
+    width: auto;
+    height: 90%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -16,3 +19,21 @@ footer{
    justify-content: center;
 }
 
+footer button{
+    padding: 20%;
+}
+
+@media screen and (max-width:800px) and (min-width: 600px){
+
+    .main{
+        height: 70vh;
+    }
+
+    img{
+        width: 80%;
+        height: 70%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+
+}
