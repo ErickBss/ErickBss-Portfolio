@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="styles/main.css"/>
         <link rel="stylesheet" type="text/css" href="styles/proj.css"/>
-        <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>       
         <title>Projects</title>
         <meta charset="UTF-8">
         <title>ErickBs</title>
@@ -19,10 +18,18 @@
                 <a class="logo-link" href="index.html">ErickBs</a>
             </section>
 
-            <nav class="menu-items">
-                <a id="active" class="item" href="projects.html">Projects</a> 
-                <a class="item" href="comming.html">Comming</a> 
-                <a class="item" href="about.html">About</a> 
+            <nav id="nav">
+
+                <ul class="menu-items">
+                    <a id="project" class="item" href="projects.html">Projects</a> 
+                    <a class="item" href="comming.html">Comming</a> 
+                    <a class="item" href="about.html">About</a> 
+                    <button class="mobileBtn"><a class="account" href="resume.html"> Resume</a></button>
+                </ul>
+
+                <div id="btnBurger"><span class="iconify" data-icon="mdi:menu" style="color: #f2674d;"></span>   </div> 
+                <div id="btnClose"> <span class="iconify" data-icon="mdi:close" style="color: red;"></span>   </div>
+                  
             </nav>
 
             <BUtton  class="b-account"><a class="account" href="resume.html"> Resume</a></BUtton>
@@ -175,6 +182,8 @@
 
           
 
- 
+            <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>  
+            <script type="text/javascript " src="styles/burguerdrop.js "></script>     
+
     </body>   
 </html>

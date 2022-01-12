@@ -1,6 +1,3 @@
-body{
-    overflow-y: hidden;
-}
 
 .title{
    text-align: center;
@@ -82,5 +79,34 @@ p,h4{
     font-size: 1.4rem;
 
 }
+
+}
+
+/* Mobile */
+
+@media screen and (max-width:600px) and (min-width: 300px){
+
+    main{
+        flex-direction: column;
+    }
+
+    img{
+        min-height: 200px;
+        max-height: 280px;
+        min-width: 350px;
+    }
+    
+    .container-right{
+        width: 60%;
+    }
+    
+    p,h4{
+        font-size: 1rem;
+    }
+    
+    .container-right aside > a{
+        font-size: 1rem;
+    
+    }
 
 }

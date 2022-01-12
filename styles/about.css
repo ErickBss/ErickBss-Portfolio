@@ -128,22 +128,42 @@ body{
 }
 
 
-@media (min-width: 1400px){
+/* Mobile */
 
-    main{
-        font-size: 2.3rem;
-        gap: 15px;
+@media screen and (max-width:600px) and (min-width: 300px){
+
+    
+    .main{
+        margin-top: 1%;
+        flex-direction: column-reverse;
+        gap: 20px;
+        
     }
 
-    .container-left h1{
-        font-size: 3rem;
+    .container-right .profile{
+        min-height: 100px;
+        max-height: 200px;
+        min-width: 150px;
+    
     }
 
-    .img{
-        min-height: 400px;
-        max-height: 550px;
-
+    .container-right{
+        width: 80%;
+        height: auto;
     }
+
+    .container-right .iconify{
+        font-size: 1.2rem;
+    }
+
+    .information{
+        font-size: 0.7rem;
+    }
+
+    .container-left{
+        width: 70%;
+    }
+
+    
 }
-
 

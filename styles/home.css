@@ -59,6 +59,36 @@ main{
 }
 
 
+/* Mobile */
+
+@media screen and (max-width:600px) and (min-width: 300px){
+
+    main{
+        width: 90vw;
+        flex-direction: column-reverse;
+        gap: 10%;
+        align-items: center;
+    }
+
+    .img{
+        min-height: 200px;
+        max-height: 350px;
+        min-width: 300px;
+    }
+
+    
+    .container-left h1{
+        font-size: 2rem;
+    }
+
+    .container-left p{
+        font-size: 1.2rem;
+        width: 80vw;
+    }
+
+
+}
+
 /* @media (min-width: 1400px){
 
     main{

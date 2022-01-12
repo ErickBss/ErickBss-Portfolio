@@ -16,12 +16,21 @@
             <a class="logo-link" href="index.html">ErickBs</a>
         </section>
 
-        <nav class="menu-items">
-                <a class="item" href="projects.html">Projects</a> 
+        <nav id="nav">
+
+            <ul class="menu-items">
+                <a id="project" class="item" href="projects.html">Projects</a> 
                 <a class="item" href="comming.html">Comming</a> 
-                <a  class="item" href="about.html">About</a> 
+                <a class="item" href="about.html">About</a> 
+                <button class="mobileBtn"><a class="account" href="resume.html"> Resume</a></button>
+            </ul>
+
+            <div id="btnBurger"><span class="iconify" data-icon="mdi:menu" style="color: #f2674d;"></span>   </div> 
+            <div id="btnClose"> <span class="iconify" data-icon="mdi:close" style="color: red;"></span>   </div>
+              
         </nav>
-        <BUtton id ="active" class="b-account"><a  class="account" href="resume.html"> Resume</a></BUtton>
+
+        <BUtton  class="b-account"><a class="account" href="resume.html"> Resume</a></BUtton>
 
     </header>
 
@@ -51,5 +60,7 @@
         </a>
     </footer>
     
+    <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+    <script type="text/javascript " src="styles/burguerdrop.js "></script>
 </body>
 </html>

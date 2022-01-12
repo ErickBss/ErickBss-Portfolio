@@ -18,12 +18,15 @@ body{
 }
 
  header{
-    margin: 0 1vw 0 1vw;
     align-items: center;
+    margin: 0 1vw;
+    width: 98vw;
     display: flex;
+    justify-content: space-between;
     padding: 10px 0;
 }
 .logo{
+    margin: 0;
     font-size: 1.7rem;
     font-weight: 900;
     
@@ -32,17 +35,18 @@ body{
     text-decoration: none;
     color:var(--main-color);
 }
-.menu-items{
+nav{
     display: flex;
-    width: 100vw;
-    margin-top: 0.5vw;
     align-items: baseline;
-    gap: 5%;
-    padding: 0 20px;
     justify-content: center;
 }
+
+.menu-items{
+    display: flex;
+    justify-content:center ;
+    gap: 10%;
+}
 .item{
-    padding: 0 5px;
     font-size: 1.5rem;
     color:var( --sec-color);
     text-decoration: none;   
@@ -84,6 +88,16 @@ button:hover{
 .error-message{
     display: none;
 }
+
+header .iconify{
+    display: none;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.mobileBtn{
+    display: none;
+}
 /* tablet */
 @media screen and (max-width:800px) and (min-width: 600px){
    
@@ -94,7 +108,7 @@ button:hover{
     }
 
     .item{
-       font-size:1.6rem ;
+       font-size:1.7rem ;
    }
 
     button{
@@ -102,6 +116,97 @@ button:hover{
         padding: 1.3% 1.3%;
     }
 }
+
+#menu-bar{
+    display:none;
+}
+
+
+/* Mobile */
+
+@media screen and (max-width:600px) and (min-width: 300px){
+
+    header{
+        justify-content: space-around;
+    }
+
+    .logo{
+        font-size: 1.5rem;
+    }
+
+    .item{
+        font-size: 0.8rem;
+    }
+
+    button{
+        display: none;
+    }
+
+    .account{
+        color:black;
+    }
+
+    /* Burger menu */
+
+    .mobileBtn{
+        display: block;
+        border: none;
+        border-radius: 10px;
+        background-color: #e3e3e3;
+        font-size: 1rem;
+        padding: 4.5% 4.5%;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    header .iconify{
+        display: block;
+    }
+
+    nav #btnClose{
+        display: none;
+    }
+
+    nav.active #btnBurger{
+        display: none;
+    }
+
+    nav.active #btnClose{
+        display: block;
+    }
+
+    .menu-items{
+        display: block;
+        background-color: var(--main-color);
+        position: absolute;
+        top: 60px;
+        right: 50px;
+        width: 0;
+        transition: .4s;
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    nav.active .menu-items{
+        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        width: 30%;
+        height: auto;
+        padding: 1.5rem 0;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+
+    .item{
+        color: white;
+        font-size: 1rem;
+    }
+
+}
+
 
 
 /* @media (max-width:1150px ){

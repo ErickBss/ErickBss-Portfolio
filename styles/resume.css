@@ -35,5 +35,28 @@ footer button{
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
     
+}
+
+/* Mobile */
+
+@media screen and (max-width:600px) and (min-width: 300px){
+
+    .main{
+        height: 60vh;
+    }
+
+    img{
+        width: 80%;
+        height: 70%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    footer button{
+        display: block;
+    }
+
+    a{
+        text-decoration: none;
+    }
 
 }
