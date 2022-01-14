@@ -60,6 +60,34 @@ p, h4{
     color: var(--main-color);
 }
 
+
+/* higher screens */
+
+@media screen and (max-width:2000px) and (min-width: 1400px){
+
+    .title{
+        font-size: 2vw;
+    }
+
+    p,h4,h3{
+        font-size: 1.8vw;
+    }
+
+    .container-right aside > a{
+        font-size: 1.8vw;
+    
+    }
+
+    img{
+        min-height: 200px;
+        max-height: 550px;
+        width: auto;
+    }
+    
+    
+
+}
+
 /* Tablet */
 @media screen and (max-width:800px) and (min-width: 600px){
 

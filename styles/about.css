@@ -107,6 +107,58 @@ body{
 }
 
 
+
+/* higher screens */
+
+@media screen and (max-width:2000px) and (min-width: 1400px){
+
+    .main{
+        height: 100%;
+        align-items: center;
+    }
+
+    .container-right{
+        height: 60vh;
+    }
+
+    .container-right .profile{
+        min-height: 400px;
+        max-height: 550px;
+        width:auto ;
+    
+    }
+
+    .container-left{
+        height: 60vh;
+
+    }
+
+    .container-left .block  p{
+        font-size: 1.5vw;
+    }
+
+    .container-left .topics{
+        font-size: 1.8vw;
+    }
+
+    .container-left .block {
+        font-size: 1.5vw;
+    }
+
+    .information{
+        font-size: 1.5vw;
+    }
+
+    .container-right .iconify{
+        font-size: 50px;
+    }
+
+    .title{
+        font-size: 2vw;
+    }
+
+}
+
 /* Tablet */
 @media screen and (max-width:800px) and  (min-width: 600px){
 
@@ -125,7 +177,12 @@ body{
     .container-left{
         width: 70%;
     }
+
+  
+    
 }
+
+
 
 
 /* Mobile */
@@ -164,6 +221,9 @@ body{
         width: 70%;
     }
 
+    #active{
+        color: white;
+    }
     
 }
 

@@ -25,9 +25,28 @@ main{
 
 .img{
     width:50vw;
-    min-height: 300px;
-    max-height: 450px;
-    min-width: 400px;
+    min-height: 200px;
+    max-height: 350px;
+    width: auto;
+}
+
+/* higher screens */
+
+@media screen and (max-width:2000px) and (min-width: 1400px){
+
+    .container-left h1{
+        font-size: 4vw;
+    }
+
+    .container-left p{
+        width: 40vw;
+        font-size: 1.8vw;
+    }
+
+    .img{
+        max-height: 500px;
+    }
+
 }
 
 /* Tablet */
@@ -71,9 +90,9 @@ main{
     }
 
     .img{
-        min-height: 200px;
-        max-height: 350px;
-        min-width: 300px;
+        min-height: 150px;
+        max-height: 200px;
+        width: auto;
     }
 
     
